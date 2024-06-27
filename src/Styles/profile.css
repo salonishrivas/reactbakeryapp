@@ -1,0 +1,56 @@
+.profileIcon {
+    color: var(--textcolor);
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--textcolor);
+
+}
+
+.miniavatar {
+    box-shadow: none !important;
+    background: rgb(255 138 66) !important;
+}
+
+.miniavatarBg {}
+
+.mini_avatar {
+    margin: auto !important;
+    z-index: +1;
+    top: -50px;
+    height: 100px !important;
+    width: 100px !important;
+      /* background: rgb(74, 70, 68) !important; */
+
+}
+
+.avatarname {
+    font-weight: 400 !important;
+    font-size: 28px !important;
+}
+
+.miniText {
+    margin-bottom: 50px !important;
+}
+
+.avataremail,
+.avatarcontact,
+.avataraddress {
+    font-size: 17px !important;
+    color: rgba(91, 83, 78, 0.922) !important;
+
+
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    padding-top: 0 !important;
+}
+
+.css-1eaqvnp-MuiPaper-root-MuiPopover-paper-MuiMenu-paper:before {
+    display: none !important;
+    /* background: rgb(255, 171, 111) !important; */
+
+}

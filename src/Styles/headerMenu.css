@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* variable css */
+:root {
+    /* font color css */
+    --textcolor: #252B42;
+    --textcolorhover: #FA4A0C;
+
+    /* fontfam css */
+    --navmenufam: Montserrat;
+
+}
+
+.loginsignupicon {
+    color: var(--textcolor);
+}
+
+.loginsignupicon:hover {
+    color: var(--textcolorhover);
+}
+
+.navigation-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin-left: 38px;
+    margin-right: 38px;
+
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: var(--textcolor);
+    font-family: var(--navmenufam);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.navigation-menu li a:hover {
+    color: var(--textcolorhover);
+}
+
+.mobile-navigation {
+    list-style-type: none;
+}
+
+.mobile-navigation li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mobile-navigation li a {
+    text-decoration: none;
+    color: var(--textcolor);
+    font-family: var(--navmenufam);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.mobile-navigation li a:hover {
+    color: var(--textcolorhover);
+
+}
+
+
+.profileIcon:hover {
+    color: var(--textcolorhover);
+    cursor: pointer;
+}
+
+
+@media (max-width:700px) {
+
+
+    .navigation-menu li {
+        margin-left: 23px;
+        margin-right: 23px;
+
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .headerlogo {
+        text-align: end;
+    }
+
+}
+
+@media(max-width:426px) {
+    .foodquote {
+        width: 100%;
+    }
+}

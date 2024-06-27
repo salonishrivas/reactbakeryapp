@@ -1,0 +1,98 @@
+:root {
+    --btnlogin: #FA4A0C;
+    --login: #FFF;
+}
+
+
+.loginform {
+    text-align: center;
+}
+
+.loginformstyling {
+    height: 79vh;
+    width: 370px;
+    margin: 20px auto;
+    border-radius: 30px !important;
+}
+
+.loginsignupdiv {
+    /* border-radius: 30px !important; */
+    box-shadow: none !important;
+    /* background-color: #F2F2F2 ; */
+}
+
+.textfieldarea {
+    margin: 30px;
+}
+
+.btnlogin {
+    background-color: var(--btnlogin);
+    color: var(--login);
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: large;
+    padding: 10px 20px;
+    width: 160px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.btnlogin:hover {
+    background-color: #bb3606;
+
+}
+
+.checkboxremem {
+    margin: 23px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.onLogin,
+.onSignup {
+    color: #000;
+    font-family: var(--montserrat);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.onLogin:hover,
+.onSignup:hover {
+    text-decoration: underline var(--btnlogin);
+
+    /* transition: .5s ease  var(--btnlogin); */
+}
+
+.signuplink {
+    cursor: pointer;
+}
+
+.signuplink:hover{
+    text-decoration: underline var(--btnlogin);
+
+}
+
+/* style={{  height: "70vh", width: "325px", margin: "20px auto", backgroundColor: "#F2F2F2" }} */
+@media(max-width:1024px) {
+    .loginformstyling {
+      margin: auto;
+      height: auto;
+    }
+}
+
+
+@media(max-width:321px) {
+    .loginformstyling {
+    width: auto;
+    }
+
+    .btnlogin{
+        width: auto;
+    }
+}

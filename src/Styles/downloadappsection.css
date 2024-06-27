@@ -1,0 +1,98 @@
+:root {
+    --dwnldapptext: #FFF;
+    --psbuttoncolor: #FA4A0C;
+
+    /* font fam */
+    --montserrat: Montserrat;
+    --poppins: Poppins;
+    /* on mobile view */
+    --secondtext: #737373;
+    --text: #252B42;
+}
+
+
+.footersection {
+    background-image: url(./../Components/Images/footersection.png);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: coloumn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.downloadappsection {}
+
+.downloadappnow {
+    color: var(--dwnldapptext);
+    font-family: var(--montserrat);
+    font-size: 40px;
+    text-align: center;
+    padding: 12px;
+    font-weight: 700;
+
+}
+
+.downloadappparagraph {
+    padding: 12px;
+    font-size: 24px;
+    font-family: var(--montserrat);
+    color: var(--dwnldapptext);
+    font-weight: 500;
+    width: auto;
+    text-align: center;
+}
+
+.appavailstorebtn {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    text-align: center;
+    color: var(--dwnldapptext);
+    font-family: var(--montserrat);
+    padding: 12px 37px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.playstore {
+    background-color: var(--psbtncolor);
+    border: none;
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.playstore:hover {
+    background-color:  #bb3606;;
+}
+
+.appstore {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.appstore:hover {
+    background-color: #bb3606;;
+}
+
+
+@media (max-width:426px) {
+    .footersection {
+        background: var(--dark-background, #252B42);
+        height: 100vh;
+        padding: 25px;
+    }
+
+    .downloadappparagraph {
+        padding: 25px;
+    }
+
+}

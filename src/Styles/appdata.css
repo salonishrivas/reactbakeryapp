@@ -1,0 +1,194 @@
+:root {
+
+    --dwnldapptext: #FFF;
+    --psbuttoncolor: #FA4A0C;
+
+    /* font fam */
+    --montserrat: Montserrat;
+    --poppins: Poppins;
+    /* on mobile view */
+    --secondtext: #737373;
+    --text: #252B42;
+}
+
+
+.appheadline .howappworks {
+    font-family: var(--poppins);
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.applicationdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.appdetail {
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.appuiimgs {
+    width: 302px !important;
+    height: 525px;
+
+}
+
+#order2 {
+    order: 2;
+}
+
+/* .order1 {
+    order: 1;
+} */
+
+
+.applogindetails {
+    width: 430px;
+}
+
+.applogindetails .topheadline {
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--psbuttoncolor);
+
+}
+
+.applogindetails .description {
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--text);
+}
+
+.applogindetails .detail {
+    font-family: var(--montserrat);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--secondtext);
+}
+
+.appdetail {}
+
+
+.divider {
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+    height: 3px;
+}
+
+@media (max-width:1024px) {
+
+    .divider {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+
+    }
+}
+
+
+@media(max-width:768px) {
+    .appuiimgs {
+        /* height: auto; */
+    }
+
+
+    .applogindetails {
+        width: auto;
+    }
+
+    .applogindetails .topheadline {
+        font-size: 20px;
+
+    }
+
+    .applogindetails .description {
+        font-size: 24px;
+
+    }
+
+    .applogindetails .detail {
+        font-size: 18px;
+
+    }
+
+}
+
+@media(max-width:600px) {
+    .appdetail {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #order2 {
+        /* order: 1; */
+    }
+
+    #order1 {
+        order: 2;
+    }
+
+}
+
+@media (max-width:426px) {
+
+
+    .divider {
+        margin-left: 55px !important;
+        margin-right: 55px !important;
+    }
+
+    .appheadline .howappworks {
+        font-size: 24px;
+    }
+
+    .appuiimgs {
+        /* height: auto; */
+        width: auto;
+    }
+
+    .applogindetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .applogindetails .topheadline {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .applogindetails .description {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .applogindetails .detail {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+}
+
+@media(max-width:321px){
+    .applogindetails .description {
+        text-align: center;
+        font-size: 30px;}
+}

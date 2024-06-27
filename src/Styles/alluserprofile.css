@@ -1,0 +1,33 @@
+ .userdetailprofile {
+     margin-top: 50px !important;
+     margin-bottom: 50px !important;
+     text-align: center;
+     font-family: "Roboto";
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+ }
+
+ .cardbody {
+     width: 318px;
+     height: auto;
+ }
+
+ .beardata {
+   
+     margin: 20px;
+
+ }
+
+ .cardaction {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .cardcss {
+     margin: 20px;
+ }
+
+ .beardatalink{
+    text-decoration: underline;
+ }

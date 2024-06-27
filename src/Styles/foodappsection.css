@@ -1,0 +1,232 @@
+/* variable css */
+:root {
+    --foodappsection: #FFF;
+    --psbtncolor: #FA4A0C;
+
+
+    /* font fam */
+    --montserrat: Montserrat;
+    --poppins: Poppins;
+
+
+    /* on mobile view */
+    --secondtext: #737373;
+    --text: #252B42;
+}
+
+.headersection {
+    margin-top: 15px;
+    height: 80vh;
+    max-width: 100%;
+    background-image: url(/src/Components/Images/headersection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.foodappcontent {
+    color: var(--foodappsection);
+
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.foodapp {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 46px;
+    font-family: var(--montserrat);
+}
+
+.foodquote {
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 58px;
+    font-weight: 700;
+    width: 815px;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.foodpara {
+    padding-bottom: 24px;
+    padding-top: 20px;
+    font-family: var(--montserrat);
+    font-weight: 500;
+
+}
+
+.button {
+    border-radius: 23px;
+    color: white;
+    font-family: var(--montserrat);
+    padding: 12px 37px;
+    text-align: center;
+    /* display: inline-block; */
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.headsectionbutton {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+    z-index: +1;
+
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.playstorebtn {
+    background-color: var(--psbtncolor);
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.playstorebtn:hover {
+    background:  #bb3606;
+    /*-temporary-*/
+}
+
+.appstorebtn {
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.appstorebtn:hover {
+    /* border-color: #fc713e; */
+    background:  #bb3606;;
+    /*-temporary-*/
+
+}
+
+@media (max-width:1024px) {
+    .foodapp {
+        font-size: 18px;
+    }
+
+    .foodquote {
+        font-size: 31px;
+    }
+
+    .foodpara {
+        font-size: 16px;
+    }
+
+    .button {
+        /* font-size: 16px; */
+    }
+
+
+
+}
+
+@media (max-width:900px) {
+    .foodapp {
+        font-size: 18px;
+    }
+
+    .foodquote {
+        font-size: 31px;
+        width: 60%;
+    }
+
+    .foodpara {
+        font-size: 16px;
+    }
+
+    .button {
+        /* font-size: 16px; */
+    }
+}
+
+@media(max-width:700px) {
+    .foodapp {
+        font-size: 16px;
+    }
+
+    .foodquote {
+        font-size: 29px;
+        width: 60%;
+    }
+
+    .foodpara {
+        font-size: 14px;
+    }
+
+    .button {
+        /* font-size: 14px; */
+    }
+}
+
+@media (max-width:426px) {
+    .headersection {
+        background-image: none;
+    }
+
+
+    .foodapp {
+        color: var(--secondtext);
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 0;
+    }
+
+    .foodquote {
+        color: var(--text);
+        font-size: 36px;
+        width: auto;
+    }
+
+    .foodpara {
+        color: var(--secondtext);
+        font-size: 24px;
+    }
+
+
+    .appstorebtn {
+        border: 1px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+
+    .headsectionbutton {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        margin: 10px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width:321px) {
+    .headersection {
+        height: 55vh;
+    }
+
+    .foodapp {
+        /* font-size: 11px; */
+    }
+
+    .foodquote {
+        font-size: 27px;
+    }
+
+    .foodpara {
+        font-size: 20px;
+    }
+
+    .button {
+        /* font-size: 12px; */
+    }
+}

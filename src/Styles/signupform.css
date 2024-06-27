@@ -1,0 +1,102 @@
+:root {
+    --btnlogin: #FA4A0C;
+    --login: #FFF;
+}
+
+.signupform {
+    text-align: center;
+}
+
+.signupformstyling {
+
+    height: 79vh;
+    width: 370px;
+    margin: 20px auto;
+    border-radius: 30px !important;
+    text-align: center;
+}
+
+.signupdiv {
+    box-shadow: none !important;
+}
+
+:root {
+    --btnlogin: #FA4A0C;
+    --login: #FFF;
+}
+
+
+.loginform {
+    text-align: center;
+}
+
+ 
+.signupbtn {
+    background-color: var(--btnlogin);
+    color: var(--login);
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: large;
+    padding: 10px 20px;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.btnlogin:hover {
+    background-color: #bb3606;
+
+}
+
+.checkboxremem {
+    margin: 23px;
+}
+
+.signupBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.onLogin,
+.onSignup {
+    color: #000;
+    font-family: var(--montserrat);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.onLogin:hover,
+.onSignup:hover {
+    text-decoration: underline var(--btnlogin);
+
+    /* transition: .5s ease  var(--btnlogin); */
+}
+
+.loginlink {
+    cursor: pointer;
+}
+
+.loginlink:hover {
+    text-decoration: underline var(--btnlogin);
+
+}
+
+@media(max-width:1024px) {
+    .signupformstyling {
+      height: auto;
+      margin: auto;
+    }
+}
+
+@media(max-width:321px) {
+    .signupformstyling {
+    width: auto;
+    }
+
+    .btnlogin{
+        width: auto;
+    }
+}
